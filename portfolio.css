@@ -58,9 +58,10 @@ nav a {
 /* header related style */
 .header {
   background-color: #fff8f3;
-  background-image: url("/images/header_bg.png");
+  background-image: url("/images/header_bg.png"),url('/images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,
+  bottom left;
 }
 
 .banner {
@@ -188,11 +189,37 @@ hr {
   margin-top: 20px;
 }
 
-
 /* footer section */
-footer{
+footer {
   padding: 130px 200px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   display: flex;
   margin-top: 100px;
+  gap: 100px;
+}
+.footer-culomn {
+  width: 50%;
+  background-color: #eff8f1;
+  border-radius: 10px;
+}
+
+.contact input[type="email"],input[type="text"],
+textarea {
+  display: block;
+  padding: 18px 30px;
+  margin-bottom: 25px;
+  color: #757575;
+  font-size: 20px;
+  /* line-height: 28px; */
+  border-radius: 10px;
+  border: 0px;
+  width: 70%;
+  margin-left: 20px;
+}
+.social-link{
+  display: flex;
+  gap: 20px;
+}
+p.section-description{
+  padding: 0px 100px;
 }
