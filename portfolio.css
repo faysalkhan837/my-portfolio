@@ -164,7 +164,7 @@ main section {
   font-size: 30px;
   font-weight: 700;
 }
-.resume-item-title{
+.resume-item-title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -177,13 +177,22 @@ main section {
 .resume-item-description {
   color: #757575;
   margin-top: 10px;
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-hr{
+hr {
   margin-top: 0px;
 }
 
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 20px;
+}
+
+
+/* footer section */
+footer{
+  padding: 130px 200px;
+  background-color: #FFF8F3;
+  display: flex;
+  margin-top: 100px;
 }
